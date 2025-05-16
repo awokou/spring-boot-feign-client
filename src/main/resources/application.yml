@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: api-feign-client
+  main:
+    allow-bean-definition-overriding: true
+
+base:
+  url: https://fakestoreapi.com
